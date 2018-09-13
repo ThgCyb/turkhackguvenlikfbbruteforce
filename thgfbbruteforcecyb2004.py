@@ -54,14 +54,14 @@ def function(email,passw,i):
 	return False
 
 #payload=create_form()
-print('
+print("
 
 
- 0 0 0 0 0     0            0   0 0 0 0 0 0   0   0 
+     0 0 0 0 0      0            0   0 0 0 0 0 0   0   0 
          0          0            0   0               0   0 0 
          0.         0            0   0 0 0 0 0 0   00      
          0          0            0   00                  0   0 
-         0.         0 0 0 0 0   0   0                0     0 
+         0.         0 0     0 0 0         0      0                0     0 
          
          0            0     0 0 0 0 0 0   0 0 0 0 0     0      0 
          0            0    0                0  0                   0   0 
@@ -81,7 +81,7 @@ print('
 
 
 
-')
+")
 file=open('passwords.txt','r')
 i=0
 email=input('Kurbanin Mail Adresi : ')
