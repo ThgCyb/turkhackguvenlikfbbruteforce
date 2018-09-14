@@ -1,4 +1,5 @@
-import requests
+
+	import requests
 import threading
 # import urllib.request
 # import os
@@ -54,23 +55,40 @@ def function(email,passw,i):
 	return False
 
 #payload=create_form()
-print('
 
-Yapimci: Cyb2004
-	Web Sites: www.turkhackguvenlik.com
-		Web Site Kullanici Ad: Cyb2004
-			Facebook: www.facebook.com/BySusmaz
-				Youtube: Cyb2004
-					
-					
-	BU KODLAMA
-www.turkhackguvenlik.com Dan 
-Cyb2004
-Tarafindindan Kodlanmistir. 
-Editlenmesi Kesinlikle Yasaktir. 
+setterm -foreground white
+	  echo "  	 -{ Denial of Service Attack Tool (DoS-A-Tool) } "
+	  echo "               -{ SO > Android - Only for Termux } "
+	  echo "	                 -{ Coded by } "
+setterm -foreground green
+          echo "		==============================";
+          echo "		.___                  _______";
+          echo "		|   |__ ______   ___  \_____ \ ";
+	  echo "		|   \ \/ /\__ \ /   \    (__ <,";
+          echo "		|   |\   / __ \| Y Y \ \      \ ";
+	  echo "		|___| \_/ (____|__|_| /______ /";
+          echo "		              \/    \/      \/ ";
+          echo "		====== By ___ Cinderella ======";
+          echo
+	  sleep 1
+setterm -foreground blue
+          echo "		      [---] Join me on [---]"
+	  echo "	  [-] www.youtube.com/c/ivam3bycinderella [-]"
+	  echo "	         [-] fb.me/ivam3bycinderella [-]"
+	  sleep 2
+	  echo
+setterm -foreground red
+	  echo " 		      [---] DISCLAIMER [---]"
+setterm -foreground white
+	  echo "This tool was created for pentesting and computer security tests.
+	  If the law is violated with its use,
+this would be the responsibility of the user who handled it"
+	  echo
+setterm -foreground red
+	  echo "		   [-] Use At Your Own Risk [-]"
+	  echo
 
-Editlerseniz Olacaklardan Ben Sorumlu Deyilim
-')
+
 file=open('passwords.txt','r')
 i=0
 email=input('Kurbanin Mail Adresi : ')
@@ -86,6 +104,3 @@ while file:
 	# threading.Thread(target=function,args=(email,passw,i)).start()
 	# if not i%10:
 		# os.system('pause')
-
-
-
